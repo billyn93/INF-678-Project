@@ -1,0 +1,36 @@
+input {
+	width: 50%;
+	
+	}
+
+body {
+	background-color: #BE9EC9
+	
+}
+
+h1 {
+	text-align: center;
+	
+}
+form {
+	background-color: #EAE6DA;
+	margin: 0 auto;
+	width: 50%;
+	padding: 1em;
+	margin: 2em;
+	float: right;
+	
+
+}
+
+h2 {
+	text-align: center;
+}
+
+.welcome {
+	width: 36em;
+      background-color: #e8eaf6;
+	  margin: 1em;
+      padding: 1em;  
+      float: left;
+}

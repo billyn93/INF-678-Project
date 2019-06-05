@@ -1,0 +1,26 @@
+
+
+body {
+	background-color: #BE9EC9
+	
+}
+
+h1 {
+	text-align: center;
+	
+}
+.form1 {
+	background-color: #EAE6DA;
+	margin: 0 auto;
+	width: 50%;
+	padding: 1em;
+}
+
+.wrapper {
+	background-color: #EAE6DA;
+	float: left;
+}
+
+h6 {
+	color: green;
+}
