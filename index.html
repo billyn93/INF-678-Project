@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="ProfilePage.css">
+
+<nav class="navbar navbar-expand-lg navbar-light mt-2" style="background-color: #e3f2fd;">
+  <a class="navbar-brand" href="HomePage.html">OpinioSphere</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="HomePage.html">OpinioSphere</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="HomePage.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+			<li class="nav-item active">
+              <a class="nav-link" href="ProfilePage.html">Profile <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="About.html">About</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link active" href="FriendlyThinkers.html">Friendly Thinkers</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link" href="#">Edit Profile</a>
+            </li>
+            
+			<li class="nav-item">
+              <a class="nav-link active" href="HomePage.html">Log Out</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+  </div>
+</nav>
+ <br/><br/><br/><br/>
+ <img src="Billy.png" alt="Billy Profile Picture"> 
+ <br/><br/>
+ 
+ <h2> Billy Nguyen </h2>
+
+ <br/><br/>
+ 
+ <form>
+	<div class="form-group"><br/>
+	<label for="exampleFormControlInput1">Subject</label>
+	<input type="text" class="form-control" id="exampleFormControlInput1">
+	<br/>
+	</div>
+	
+	<div class="form-group">
+	<label for="exampleFormControlInput1">Thoughts
+	</label><br/>
+	<textarea placeholder="What would you like to share?"></textarea>
+	<br/><br/><br/>
+	</div>
+	<button type="submit" class="btn btn-primary">Post</button>
+
+</form>
+<br/><br/>
+<div class="postfeed">
+<h2>Post Feed</h2>
+<br/><br/>
+
+<div class="fb" style="margin-left:0px;" id="download">
+                
+                                <div class="post">
+								
+                                    
+										<span class="subject">The State of Lorem Ipsum</span>
+                                    <div class="txt">
+                                        <div class="name"><strong><a href="#"><span class="text-name">Billy Nguyen</span></a></strong></div><br/>
+										<span class="text-when" style="color: blue;">October 29th, 2018</span> 
+                                        <span class="text-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at ipsum ante. Cras eget rutrum felis, nec rutrum eros. Donec tempus vitae neque et euismod. Quisque et consectetur risus, quis malesuada lectus. Vestibulum non molestie elit. Ut posuere ultrices odio, vel congue massa finibus in. Nam id rhoncus dolor, vel suscipit ex. Praesent eu lorem fermentum, fermentum arcu nec, varius nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu elit malesuada, varius magna et, semper nulla. Nunc maximus vitae mauris venenatis eleifend. Aenean accumsan tellus nec cursus blandit. Morbi facilisis, tellus nec tincidunt luctus, purus odio imperdiet enim, a vestibulum massa lorem vitae orci. Curabitur ultricies et urna condimentum lobortis.</span>
+                                        <div class="txtbottom">
+                                            <a href="#" class="text-liketext">Like</a> · <a href="#" class="text-commenttext">Comments</a>  ·  <a href="#" class="text-commenttext">Share</a> ·<span class="text-when">9 minutes ago</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post_likes">
+                                    <a href="#"><span class="text-likes">4 people</span></a> <span class="text-likethistext">like this</span>.
+                                </div>
+                                <ul class="comments" id="comments"> 
+                                                
+                                </ul>
+								<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#div1").load("Comments.html");
+    });
+});
+</script>
+</head>
+<body>
+
+<div id="div1"></div>
+
+<button>Expand This Thread</button>
+
+								<br/>
+                                <div class="post_write_comment">
+                                    
+                                    <div class="txt">
+                                        <input name="" type="text" value="Write a comment ..." class="fbinput" style="width:500px; height: 100px;">
+                                    </div>
+                                </div>
+                                <div class="clear"></div><br>
+                            <button type="submit" class="btn btn-primary">Post</button>
+                            </div>
+							<br/>
+							
+							
+							<div class="fb" style="margin-left:0px;" id="download">
+                
+                                <div class="post">
+								
+                                    
+										<span class="subject">Another Opinion About the Lorem</span>
+                                    <div class="txt">
+                                        <div class="name"><strong><a href="#"><span class="text-name">Billy Nguyen</span></a></strong></div><br/>
+										<span class="text-when" style="color: blue;">October 30th, 2018</span> 
+										
+                                        <span class="text-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at ipsum ante. Cras eget rutrum felis, nec rutrum eros. Donec tempus vitae neque et euismod. Quisque et consectetur risus, quis malesuada lectus. Vestibulum non molestie elit. Ut posuere ultrices odio, vel congue massa finibus in. Nam id rhoncus dolor, vel suscipit ex. Praesent eu lorem fermentum, fermentum arcu nec, varius nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu elit malesuada, varius magna et, semper nulla. Nunc maximus vitae mauris venenatis eleifend. Aenean accumsan tellus nec cursus blandit. Morbi facilisis, tellus nec tincidunt luctus, purus odio imperdiet enim, a vestibulum massa lorem vitae orci. Curabitur ultricies et urna condimentum lobortis.</span>
+                                        <div class="txtbottom">
+                                            <a href="#" class="text-liketext">Like</a> · <a href="#" class="text-commenttext">Comments</a>  ·   <a href="#" class="text-commenttext">Share</a> ·  <span class="text-when">1 day later</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post_likes">
+                                    <a href="#"><span class="text-likes">10 people</span></a> <span class="text-likethistext">like this</span>.
+                                </div>
+                                <ul class="comments" id="comments"> 
+                                                
+                                </ul>
+								<br/>
+                                <div class="post_write_comment">
+                                    
+                                    <div class="txt">
+                                        <input name="" type="text" value="Write a comment ..." class="fbinput" style="width:500px; height: 100px;">
+                                    </div>
+                                </div>
+                                <div class="clear"></div><br>
+                            <button type="submit" class="btn btn-primary">Post</button>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+<a href='#top' class="top"->Go Top</a>
+<script>
+$("a[href='#top']").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
+});
+</script>
+
+<footer class="disclaimer">
+Code and Images of the Post Feed was modified and taken from http://simitator.com/generator/facebook/status; a free fake facebook status generator
+
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

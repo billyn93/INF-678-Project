@@ -1,0 +1,56 @@
+body {
+	background-color: #BE9EC9;
+}
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h2 {
+	text-align: center;
+	padding: 1em;
+}
+
+form {
+	background-color: #EAE6DA;
+	margin: 0 auto;
+	width: 50%;
+	padding: 1em;
+}
+
+textarea {
+	width: 100%;
+	
+}
+
+small {
+	text-align: center;
+	
+}
+
+.postfeed {
+	background-color: #EAE6DA;
+}
+
+.fb {
+	padding: 1em;
+	margin: 1em;
+	
+}
+
+.top {
+	
+	font-size: 200%;
+	margin: 0.5em;
+}
+
+img {
+	margin: 1em;
+}
+
+h2 {
+	text-align: center;
+}
